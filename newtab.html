@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Tab</title>
+	<meta charset="utf-8"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style>
+	 html{
+        -moz-user-select: none; /*火狐*/
+        -webkit-user-select: none;  /*webkit浏览器*/
+        -ms-user-select: none;   /*IE10*/
+        -khtml-user-select: none; /*早期浏览器*/
+        user-select: none;
+    }
+	html,body{height: 100%;}
+	body{
+		font-family: 'Microsoft Yahei';
+		margin:0;padding:0;
+		background: -webkit-linear-gradient(red, blue); /* Safari 5.1 - 6.0 */
+	    background: -o-linear-gradient(red, blue); /* Opera 11.1 - 12.0 */
+	    background: -moz-linear-gradient(red, blue); /* Firefox 3.6 - 15 */
+	    background: linear-gradient(red, blue); /* 标准的语法（必须放在最后） */
+	    /* background: linear-gradient(to right, red , blue); 标准的语法
+	    background: linear-gradient(to bottom right, red , blue,red); 标准的语法
+	    background: linear-gradient(to bottom right,red, green, blue); 标准的语法
+	    background: linear-gradient(to bottom right, red,orange,blue,yellow,green,indigo,violet);  */
+	    /*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); 标准的语法*/
+	    /*background: repeating-linear-gradient(red, blue 50%);*/
+	    /*background: radial-gradient(red 6%, yellow 20%, blue 95%); /* 标准的语法 */*/
+	}
+	.center {
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    height: 100%;
+	    font-size: 64px;
+	    color: #CCC;
+	    color: #969696;
+	    color: linear-gradient(red, blue);
+	     -moz-user-select: none; /*火狐*/
+        -webkit-user-select: none;  /*webkit浏览器*/
+        -ms-user-select: none;   /*IE10*/
+        -khtml-user-select: none; /*早期浏览器*/
+        user-select: none;
+	}
+	.wrapper {
+		position: absolute;
+		top: 0;
+		left: 0;
+		padding: 40px;
+		font-size: 16px;
+	}
+	</style>
+</head>
+<body>
+	<div class="center"><p>New Tab</p></div>
+</body>
+<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+<script type="text/javascript" src="js/newtab.js"></script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iNewTab</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type="text/css">
+	html,head,body,div,button{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		width: 155px;
+		background: #e3e3e3;
+		padding-top: 5px;
+	}
+	.main{
+		color: blue;
+		text-align: center;
+		font-size: 16px;
+		margin: 0 auto;
+		padding-left: 5px;
+	}
+	.center{
+		text-align: center;
+		color: #969696;
+	}
+	label{
+		width: 145px;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<script type="text/javascript" src="js/jquery.slim.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body style="background: linear-gradient(red, blue);">
+	<h3 class="center"><span class="my_theme">我的主题</span></h3>
+	<hr width=90% size=8 color=#5151A2 style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" />
+	<div class="main">
+		<label  class="btn btn-primary">
+			<span class="switch">定时切换</span> <input  type="radio" name="topic" value="0">
+		</label>
+		<br />
+		<label class="btn btn-primary">
+			<span class="one">主题一</span>&nbsp;&nbsp;&nbsp; <input  type="radio" name="topic" checked="true" value="1">
+		</label>
+		<br />
+		<label class="btn btn-primary">
+			<span class="two">主题二</span>&nbsp;&nbsp;&nbsp; <input  type="radio" name="topic" value="2">
+		</label>
+		<br />
+		<label class="btn btn-primary">
+			<span class="three">主题三</span>&nbsp;&nbsp;&nbsp; <input  type="radio" name="topic" value="3">
+		</label>
+		<br />
+		<label class="btn btn-primary clearCache">
+			清除缓存
+		</label>
+		<br />
+	</div>
+	<script type="text/javascript" src="js/jquery-1.8.3.js"></script>
+	<script type="text/javascript" src="js/popup.js"></script>
+</body>
+</html>

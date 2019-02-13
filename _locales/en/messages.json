@@ -1,0 +1,20 @@
+{
+   "my_theme": {
+      "message": "My theme"
+   },
+   "timing_switch": {
+      "message": "Timing switch"
+   },
+   "theme_one": {
+      "message": "Theme one"
+   },
+   "theme_two": {
+      "message": "Theme two"
+   },
+   "theme_three": {
+      "message": "Theme three"
+   },
+   "clear_cache": {
+      "message": "Clear cache"
+   }
+}
